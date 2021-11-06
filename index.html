@@ -5,58 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Single page site</title>
+    <link rel="Stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <!-- header  -->
-    <span>Home</span>
-    <span>Band</span>
-    <span>Tour</span>
-    <span>Contact</span>
+    <div class="header">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmkrf2jSZRHVUg4S6uXmniiXeCBHc6hQvvAw&usqp=CAU"
+        alt="logo"
+        height="40"
+        width="auto"
+      />
+      <span class="menu_item" id="work">Home</span>
+      <span class="menu_item">About</span>
+      <span class="menu_item">Contact</span>
+    </div>
+    <p>
+      <span>Lorem </span>ipsum dolor sit amet, consectetur adipisicing elit.
+      Unde itaque quos similique quaerat sunt at nemo consequatur, voluptate
+      soluta et est veniam blanditiis? Dolorum magnam odit pariatur, facilis,
+      minus maiores, deleniti eos dolore ducimus veritatis quasi qui placeat.
+      Nemo, autem alias, commodi obcaecati quo ipsa dolorem culpa eveniet eos
+      eum hic praesentium possimus voluptatum consequuntur ipsam.
+    </p>
 
-    <!-- structure -->
-    <div>
-      <img
-        src="https://i.ytimg.com/vi/HLtO5MeT5-E/maxresdefault.jpg"
-        alt="moving img"
-        width="100%"
-      />
-    </div>
-    <!-- text  -->
-    <div>
-      <h2>The Band</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam
-        repudiandae non iusto ipsum tenetur explicabo nobis labore quis odio
-        amet ab officia neque, sit recusandae, adipisci, veritatis nihil!
-        Rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Praesentium repudiandae accusamus, saepe optio ratione id ut omnis
-        tempora nam natus rerum quod ab odio. Minima dolorum est vitae debitis
-        labore fugit sit?
-      </p>
-    </div>
-    <!-- images  -->
-    <div>
-      <img
-        src="https://images.pexels.com/photos/10012507/pexels-photo-10012507.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        alt="mask man"
-        height="200"
-        width="450"
-      />
-      <img
-        src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        alt="yellow shirt"
-        height="200"
-        width="450"
-      />
-      <img
-        src="https://images.pexels.com/photos/10010557/pexels-photo-10010557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        alt="portrait"
-        height="200"
-        width="450"
-      />
-    </div>
-    <!-- footer -->
-    <div>&copy; copyright</div>
+    <form action="">
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" id="firstName"/>
+      <br/>
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName"/>
+      <br/>
+      <label for="email">Email Id</label>
+      <input type="email" id="email"/>
+      <br/>
+      <label for="DOB">DOB</label>
+      <input type="date" id="DOB"/>
+    </form>
   </body>
 </html>

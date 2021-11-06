@@ -1,0 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu_item{
+    font-size: 25px;
+    color: yellowgreen;
+}
+
+.header{
+    background-color: grey;
+}
+
+#work{
+    font-size: 30px;
+}
+
+label{
+    font-size: 15px;
+    text-decoration-thickness: 20px;
+}
